@@ -1,0 +1,4 @@
+_LNG=$(LANGUAGE)
+STAMP=stampinf -f $@ =a $(_BUILDARCH) -k $(KMDF_VERSION_MAJOR).$(KMDF_VERSION_MINOR)
+
+
